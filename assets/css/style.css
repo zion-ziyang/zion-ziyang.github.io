@@ -1362,6 +1362,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   #RESPONSIVE
 \*-----------------------------------*/
 
+@media (min-width: 350px) {
+  /* .title-container {
+    padding-bottom: 15px;  /* Add padding at the bottom
+  } 
+  */
+  .sidebar {
+    max-height: 120px;
+  }
+  main {
+    margin-bottom: 0px;
+  }
+  .footer{
+    margin-bottom: 60px;
+  }
+}
 /**
  * responsive larger than 450px screen
  */
@@ -1374,6 +1389,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
+  /* .title-container {
+    padding-bottom: 15px; /* Add padding to the title container 
+  */
 
 
   /**
@@ -1383,10 +1401,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-img,
   .blog-banner-box { height: auto; }
 
-  main {
-    margin-top: 60px;
+  /* main {
+    margin-top: 0px;
     margin-bottom: 0px;
-  }
+  } */
 
   .footer{
     margin-bottom: 60px;
